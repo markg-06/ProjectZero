@@ -12,7 +12,13 @@ public class ProjectOne {
         
         System.out.println("Final sum: " + sum);
     }
-    
+    /**
+ * Adds the given value to the current sum.
+ *
+ * @param currentSum the current sum value
+ * @param value the number to add
+ * @return the updated sum
+ */ 
     public static int addToSum(int currentSum, int value) {
         currentSum = currentSum + value;
         return currentSum;
