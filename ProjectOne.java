@@ -6,7 +6,7 @@ public class ProjectOne {
         int sum = 0;
         
         for (int i = 0; i < numbers.length; i++) {
-            sum = addToSum(sum, numbers[i]);
+            sum = addToSum(sum, numbers[i] + 1);// bug added here that adds 1 to each num. before adding to sum
             System.out.println("Iteration " + i + ": sum = " + sum);
         }
         
